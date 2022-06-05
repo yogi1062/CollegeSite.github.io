@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<title>DIV & FORM</title>
+<style>
+div { height:500px;
+      width:500px;
+	  background-color:pink;
+	  margin-top:50px;
+	  margin-left:200px;
+	  padding-top:50px;
+	  padding-left:10px;
+	 } 
+body{
+	overflow: hidden;
+}
+</style>
+</head>
+<body>
+<h1> REGISTRATION FORM
+</h1><hr>
+<div>
+<form action="android.php"  method="get">
+<table style="text-align:left">
+<tr>
+<th>NAME</td>
+<td><input type="text" name="NAME" placeholder="Enter Your Name"/><td>
+</tr>
+<tr>
+<th>ADDRESS</th>
+<td><input type="text" name="Address" placeholder="Enter Your Address"/></td>
+</tr>
+<tr>
+<th>GENDER</th>
+<td><input type="radio" name="gender"/>M<input type="radio" name="gender"/>F</td>
+</tr>
+<tr>
+<th>CORSE</th>
+<td> <input type="checkbox" name="MECHANICAL"/>MACHANICAL
+     <input type="checkbox" name="CIVIL"/>CIVIL
+	 <input type="checkbox" name="CSE"/>CSE
+	 <input type="checkbox" name="ENTC"/>ENTC
+</td>	 
+</tr>
+<tr>
+<th>CITY</th>
+<td>
+<select name=city aria-placeholder="Selct City">
+<option>KOLHAPUR</option>
+<option>KOLKATA</option>
+<option>PUNE</option>
+<option>MUMBAI</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan=2><input type="submit" value="resister"/>
+    <input type="reset"/> </td>
+
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
